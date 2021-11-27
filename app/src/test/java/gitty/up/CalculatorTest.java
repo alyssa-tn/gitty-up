@@ -3,9 +3,9 @@ package gitty.up;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class AppTest {
+public class CalculatorTest {
     @Test public void appHasAGreeting() {
-        App classUnderTest = new App();
+        Calculator classUnderTest = new Calculator();
         assertNotNull("app should have a greeting", classUnderTest.getGreeting());
     }
 }
