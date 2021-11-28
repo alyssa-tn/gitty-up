@@ -24,4 +24,9 @@ public class CalculatorTest {
     public void testDivide() {
         assertEquals(2, Calculator.divide(6, 3));
     }
+
+    @Test
+    public void testMod() {
+        assertEquals(2, Calculator.divide(7, 3));
+    }
 }
