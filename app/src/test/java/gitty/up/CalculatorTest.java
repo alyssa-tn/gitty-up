@@ -20,4 +20,8 @@ public class CalculatorTest {
         assertEquals(6, Calculator.multiply(2, 3));
     }
 
+    @Test
+    public void testDivide() {
+        assertEquals(2, Calculator.divide(6, 3));
+    }
 }
