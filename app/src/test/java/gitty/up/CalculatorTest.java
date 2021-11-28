@@ -21,6 +21,11 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testMultiplyThreeArguments() {
+        assertEquals(30, Calculator.multiply(2, 3, 5));
+    }
+
+    @Test
     public void testDivide() {
         assertEquals(2, Calculator.divide(6, 3));
     }
