@@ -2,22 +2,22 @@ package gitty.up;
 
 public class Calculator {
 
-    public static int add(int a, int b) { return a + b; }
+    public static int add(int first, int second) { return first + second; }
 
-    public static int add(int a, int b, int c) {
-        return a + b + c;
+    public static int add(int first, int second, int third) {
+        return first + second + third;
     }
 
-    public static int subtract(int a, int b) { return a - b; }
+    public static int subtract(int first, int second) { return first - second; }
 
-    public static int multiply(int a, int b) { return a * b; }
+    public static int multiply(int first, int second) { return first * second; }
 
-    public static int multiply(int a, int b, int c) {
-        return a * b * c;
+    public static int multiply(int first, int second, int third) {
+        return first * second * third;
     }
 
-    public static int divide(int a, int b) { return a / b; }
+    public static int divide(int first, int second) { return first / second; }
 
-    public static int mod(int a, int b) { return a % b; }
+    public static int mod(int first, int second) { return first % second; }
 
 }
