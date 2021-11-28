@@ -11,6 +11,11 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testAddThreeArguments() {
+        assertEquals(6, Calculator.add(1, 2, 3));
+    }
+
+    @Test
     public void testSubtract() {
         assertEquals(1, Calculator.subtract(2, 1));
     }
