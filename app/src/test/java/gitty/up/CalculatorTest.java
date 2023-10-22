@@ -15,3 +15,4 @@ public class CalculatorTest {
         assertEquals(1, Calculator.subtract(2, 1));
     }
 }
+
